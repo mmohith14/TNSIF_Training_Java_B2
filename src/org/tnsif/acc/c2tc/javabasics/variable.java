@@ -4,7 +4,8 @@ public class variable {
 	int price=10;
 	void print()
 	{
-		String msg ="hello";
+		@SuppressWarnings("unused")
+		String message ="hello";
 		System.out.println("msg");
 	}
 	static String message="hello students";
